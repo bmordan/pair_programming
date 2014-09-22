@@ -2,4 +2,4 @@ names = %w[ Alex AndrewHe AndrewHa AndrewSn Ana Anna Bernard Camilla Colin Craig
 
 new_names = names.shuffle
 
-14.times {puts "#{new_names.pop} and #{new_names.pop}"}
+14.times {system say+"#{new_names.pop} and #{new_names.pop}"}
